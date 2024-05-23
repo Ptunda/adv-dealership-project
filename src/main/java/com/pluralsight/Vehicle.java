@@ -88,16 +88,22 @@ public class Vehicle {
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "vin=" + vin +
-                ", year=" + year +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", vehicleType='" + vehicleType + '\'' +
-                ", color='" + color + '\'' +
-                ", odometer=" + odometer +
-                ", price=" + price +
-                '}';
+
+        StringBuilder stringBuilder = new StringBuilder();
+
+        stringBuilder.append("Vehicle{")
+                .append("vin = ").append(vin).append(", ")
+                .append("year = ").append(year).append(", ")
+                .append("make = '").append(make).append("', ")
+                .append("model = '").append(model).append("', ")
+                .append("vehicleType = '").append(vehicleType).append("', ")
+                .append("color = '").append(color).append("', ")
+                .append("odometer = ").append(odometer).append(", ")
+                .append("price = $").append(price)
+                .append("}\n");
+
+        return stringBuilder.toString();
+
     }
 
 
