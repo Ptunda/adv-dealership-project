@@ -4,7 +4,10 @@
 
 The Car Dealership Management System is a Java console application designed to facilitate the management of vehicle inventory and sales/lease transactions for a car dealership. It allows dealership staff to add, remove, and search for vehicles based on various criteria, record sales and lease contracts, and manage customer information.
 
-![Class Diagram](path/to/your/class_diagram.png)
+<figure>
+  <img src = "Screenshot 2024-05-23 000259.png">
+  <figcaption><i>Screenshot showing all classes and file involved in this project</i></figcaption>
+</figure>
 
 ## User Stories
 
