@@ -40,10 +40,11 @@ The Car Dealership Management System is a Java console application designed to f
 - Scanner class
 
 ## Demo
-
-Include screenshots or GIFs that show your application in action. Use tools like [Giphy Capture](https://giphy.com/apps/giphycapture) to record a GIF of your application.
-
-![Application Screenshot](path/to/your/screenshot.png)
+<br><br>
+<figure>
+  <img src = "video1431888383.gif">
+  <figcaption><i>GIF to demo how the program functions</i></figcaption>
+</figure>
 
 ## Future Work
 
