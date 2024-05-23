@@ -14,11 +14,13 @@ public class SalesContract extends Contract {
 
     // Constructor
     public SalesContract(String date, String customerName, String customerEmail, Vehicle vehicleSold, boolean financeOption) {
+
         super(date, customerName, customerEmail, vehicleSold);
         this.financeOption = financeOption;
         this.salesTaxAmount = vehicleSold.getPrice() * SALES_TAX_RATE;
         this.recordingFee = RECORDING_FEE;
         this.processingFee = vehicleSold.getPrice() < 10000 ? PROCESSING_FEE_UNDER_10000 : PROCESSING_FEE_10000_AND_ABOVE;
+
     }
 
     // Getters and setters

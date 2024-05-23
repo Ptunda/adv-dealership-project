@@ -51,6 +51,7 @@ public class ContractFileManager {
             bufferedWriter.write(stringBuilder.toString());
             bufferedWriter.newLine();
 
+            bufferedWriter.close();
         } catch (IOException e) {
             System.out.println("Error writing to file: " + e.getMessage());
         }
